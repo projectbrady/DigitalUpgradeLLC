@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary-color: rgb(224, 92, 31);
+    --text-color: #fff;
+    --bg-color: #f4f4f4;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    background-color: var(--bg-color);
+}
